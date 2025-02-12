@@ -1,0 +1,34 @@
+{
+  "home": {
+    "welcome": "Welcome to My Coding Streams",
+    "description": "I am a developer experienced in web, AI, and mobile app projects. Join my live coding sessions!"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I am a seasoned developer passionate about coding and sharing my knowledge. I have extensive experience in building web, AI, and mobile applications and love to help others learn."
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "Here are some of my finished projects. Check out the source code on GitHub."
+  },
+  "ideas": {
+    "title": "Project Ideas",
+    "description": "Submit your ideas for the next project and vote for your favorites.",
+    "submitPlaceholder": "Share your project idea...",
+    "submitButton": "Submit Idea"
+  },
+  "footer": {
+    "github": "GitHub",
+    "twitter": "Twitter",
+    "donate": "Donate"
+  },
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "ideas": "Ideas"
+  },
+  "language": {
+    "switch": "Switch Language"
+  }
+}
