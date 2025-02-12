@@ -11,7 +11,6 @@ interface Idea {
 }
 
 export default function IdeaList() {
-  const { t } = useLocale();
   const [ideas, setIdeas] = useState<Idea[]>([]);
   const [loading, setLoading] = useState(false);
 

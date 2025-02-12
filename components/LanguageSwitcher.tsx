@@ -1,7 +1,7 @@
 import { useLocale } from "@/context/LocaleContext";
 
 export default function LanguageSwitcher() {
-  const { locale, setLocale, t } = useLocale();
+  const { locale, setLocale } = useLocale();
 
   return (
     <div className="flex space-x-4">

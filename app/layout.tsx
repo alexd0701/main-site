@@ -5,11 +5,6 @@ import { LocaleProvider } from "@/context/LocaleContext";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-const metadata = {
-  title: "My Coding Streams",
-  description: "Join me on my coding streams and projects.",
-};
-
 export default function RootLayout({
   children,
 }: {
