@@ -1,6 +1,5 @@
 "use client";
 import { useEffect, useState } from "react";
-import { useLocale } from "@/context/LocaleContext";
 import { getIdeas, voteIdea } from "@/lib/supabaseClient";
 
 interface Idea {
