@@ -7,7 +7,7 @@ export default function LanguageSwitcher() {
     <div className="flex space-x-4">
       <button
         onClick={() => setLocale("en")}
-        className={`px-3 py-1 rounded ${
+        className={`px-3 py-1 rounded-3xl ${
           locale === "en" ? "bg-blue-600 text-white" : "bg-gray-300 text-black"
         }`}
       >
@@ -15,7 +15,7 @@ export default function LanguageSwitcher() {
       </button>
       <button
         onClick={() => setLocale("ko")}
-        className={`px-3 py-1 rounded ${
+        className={`px-3 py-1 rounded-3xl ${
           locale === "ko" ? "bg-blue-600 text-white" : "bg-gray-300 text-black"
         }`}
       >

@@ -28,17 +28,50 @@ export default function LandingPage() {
         id="home"
         className="flex flex-col items-center justify-center min-h-screen"
       >
-        <h1 className="text-4xl font-bold mb-4">{t("home.welcome")}</h1>
-        <p className="text-lg text-center max-w-2xl">{t("home.description")}</p>
+        <div className="gradient-bg">
+          <svg xmlns="http://www.w3.org/2000/svg" className="svgBlur">
+            <defs>
+              <filter id="goo">
+                <feGaussianBlur
+                  in="SourceGraphic"
+                  stdDeviation="10"
+                  result="blur"
+                ></feGaussianBlur>
+                <feColorMatrix
+                  in="blur"
+                  mode="matrix"
+                  values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8"
+                  result="goo"
+                ></feColorMatrix>
+                <feBlend in="SourceGraphic" in2="goo"></feBlend>
+              </filter>
+            </defs>
+          </svg>
+          <div className="gradients-container">
+            <div className="g1"></div>
+            <div className="g2"></div>
+            <div className="g3"></div>
+            <div className="g4"></div>
+            <div className="g5"></div>
+            <div
+              className="interactive"
+              style={{ transform: "translate(1152px, 319px)" }}
+            ></div>
+          </div>
+        </div>
+        <div className="flex flex-col justify-center z-20">
+          <h1 className="text-4xl font-bold mb-4 text-center">
+            {t("home.welcome")}
+          </h1>
+          <p className="text-lg text-center max-w-2xl">
+            {t("home.description")}
+          </p>
+        </div>
       </section>
       <section
         id="about"
         className="min-h-screen flex flex-col items-center justify-center py-16"
       >
-        <div
-          className="w-full h-64 bg-cover bg-center mb-8"
-          style={{ backgroundImage: "url(/your-background.jpg)" }}
-        ></div>
         <h2 className="text-4xl font-bold mb-4">{t("about.title")}</h2>
         <p className="text-lg text-center max-w-2xl">
           {t("about.description")}

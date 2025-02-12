@@ -38,7 +38,7 @@ export default function IdeaForm({ onIdeaAdded }: IdeaFormProps) {
       <button
         type="submit"
         disabled={loading}
-        className="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded"
+        className="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-3xl"
       >
         {t("ideas.submitButton")}
       </button>

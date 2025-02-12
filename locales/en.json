@@ -1,11 +1,11 @@
 {
   "home": {
     "welcome": "Welcome to My Coding Streams",
-    "description": "I am a developer experienced in web, AI, and mobile app projects. Join my live coding sessions!"
+    "description": "I’m a passionate developer with experience in web, AI, and mobile app development. Join my live coding sessions, where I build exciting projects in real-time! All projects will be available on GitHub under an open-source license, so you can explore, contribute, and use them freely."
   },
   "about": {
     "title": "About Me",
-    "description": "I am a seasoned developer passionate about coding and sharing my knowledge. I have extensive experience in building web, AI, and mobile applications and love to help others learn."
+    "description": "With 12 years of experience in web, AI, and mobile development, I’m a passionate coder who loves sharing knowledge and helping others grow. Beyond coding, I’m an EDM enthusiast, an avid traveler exploring stunning destinations, and someone who thrives on meeting new people and exchanging ideas. Let’s connect, create, and innovate together!"
   },
   "projects": {
     "title": "Projects",

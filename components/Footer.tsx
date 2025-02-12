@@ -17,7 +17,7 @@ export default function Footer() {
           href="bitcoin:your-bitcoin-address"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-blue-400"
+          className="hover:text-blue-400 hidden"
         >
           {t("footer.donate")}
         </a>

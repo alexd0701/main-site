@@ -22,7 +22,10 @@ const LocaleContext = createContext<LocaleContextProps>({
 export const LocaleProvider: React.FC<{ children: React.ReactNode }> = ({
   children,
 }) => {
-  const [locale, setLocale] = useState<ILang>("en");
+  const domain = typeof window !== "undefined" ? window.location.hostname : "";
+  const [locale, setLocale] = useState<ILang>(
+    domain === "alexd.kr" ? "ko" : "en"
+  );
 
   useEffect(() => {
     const savedLocale = localStorage.getItem("locale");
